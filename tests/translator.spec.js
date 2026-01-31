@@ -19,7 +19,30 @@ test.describe('Singlish to Sinhala Translator – Complete Functional Coverage',
 
   // 24 Positive functional
   const positiveCases = [
-   'mama bandaaravela nagarayata yanavaa.', 'mata palathuru kanna oonee.', 'mama kolaBA yanavaa, kaar eka kaedilaa nisaa adha yannee naee.', 'oyaa sindhu kiyanavanam mama balan innavaa.', 'oyaata eeka dhaenenne kohomadha?', 'parissamen yanna', 'api lamayi ehema kiyanne naehae.', 'Aayuboovan suBha dhavasak veevaa!', 'samaavenna, mata podi prashnayak ahanna puluvandha?', 'mata oona poddak naevathilaa inna.', 'mama iiyee thraasayajanaka chithrapatiyak balanna giyaa.', 'mama heta udhenma vishva vidhYAalayata enavaa.', 'api heta navagamuva pansal yamu.', 'mama roohalata yanna taxi ekak hayar kalaa.', 'thaaththaa office yanna hadhannee.', 'WhatsApp message ekak evanna.', 'Rs.100000 k ganna oonee.', 'agaharuvaadhaa udhee 7.30 AM ta enna.', 'adha magee 25 vana upan dhinayayi', 'hari hari ee inne mama thamayi', 'ov, ehema venna puluvan.', 'mama eyaata aadharee naee mata eyaava epaa.', 'oyaa kavadhdha rata yanna hithan inne?', 'puLuvannam mata meeka kiyanna.'
+   'mama bandaaravela nagarayata yanavaa.',
+    'mata palathuru kanna oonee.',
+     'mama kolaBA yanavaa, kaar eka kaedilaa nisaa adha yannee naee.', 
+     'oyaa sindhu kiyanavanam mama balan innavaa.',
+      'oyaata eeka dhaenenne kohomadha?', 
+      'parissamen yanna', 
+      'api lamayi ehema kiyanne naehae.',
+       'Aayuboovan suBha dhavasak veevaa!', 
+       'samaavenna, mata podi prashnayak ahanna puluvandha?',
+        'mata oona poddak naevathilaa inna.', 
+        'mama iiyee thraasayajanaka chithrapatiyak balanna giyaa.',
+         'mama heta udhenma vishva vidhYAalayata enavaa.', 
+         'api heta navagamuva pansal yamu.', 
+         'mama roohalata yanna taxi ekak hayar kalaa.', 
+         'thaaththaa office yanna hadhannee.', 
+         'WhatsApp message ekak evanna.',
+          'Rs.100000 k ganna oonee.', 
+          'agaharuvaadhaa udhee 7.30 AM ta enna.',
+           'adha magee 25 vana upan dhinayayi',
+            'hari hari ee inne mama thamayi', 
+            'ov, ehema venna puluvan.', 
+            'mama eyaata aadharee naee mata eyaava epaa.',
+             'oyaa kavadhdha rata yanna hithan inne?', 
+             'puLuvannam mata meeka kiyanna.'
   ];
 
   positiveCases.forEach((input, index) => {
@@ -32,7 +55,16 @@ test.describe('Singlish to Sinhala Translator – Complete Functional Coverage',
 
   // 10 Negative functional
   const negativeCases = [
-    'apihodhataigenagannavaa', 'mma ammava blnna ynv', 'api yaapanee yanavaaxyz', 'saman v3ndanaave yan5vaa', 'ohuta karadhrayak velaa', 'yanavaa nagarayata mama', 'api\nsinduwak\nkiyamu', '00001000 10101010 10001111 11110101 10100000 00001111', '<b>mama</b> kuBurata yanavaa', 'I am playing cricket today'
+    'apihodhataigenagannavaa',
+     'mma ammava blnna ynv',
+      'api yaapanee yanavaaxyz', 
+      'saman v3ndanaave yan5vaa', 
+      'ohuta karadhrayak velaa', 
+      'yanavaa nagarayata mama', 
+      'api\nsinduwak\nkiyamu',
+       '00001000 10101010 10001111 11110101 10100000 00001111',
+        '<b>mama</b> kuBurata yanavaa',
+         'I am playing cricket today'
 
   ];
 
